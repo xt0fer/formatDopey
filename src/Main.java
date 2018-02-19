@@ -14,6 +14,9 @@ public class Main {
 
         endTime = System.currentTimeMillis();
 
+        double shorn0 = Math.floor(samson * 100) / 100;
+        System.out.printf("shorn %f \n", shorn0);
+
         long timeneeded =  endTime - startTime;
         System.out.printf("math takes %d ms; %d - %d \n", timeneeded, startTime, endTime);
 
